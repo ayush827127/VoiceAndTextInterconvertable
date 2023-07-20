@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  background: linear-gradient(to right bottom, #d13cff, #031f6a);
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.voice_to_text {
+  width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#convert_text {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  padding: 2rem;
+}
+
+button {
+  padding: 12px 20px;
+  background: #0ea4da;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2rem;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.row label{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.row textarea::-webkit-scrollbar{
+  width: 0px;
+}
+
+.row .outer{
+  height: 47px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+.row select{
+  font-size: 14px;
+  /* background: none; */
+}
+ .row select::-webkit-scrollbar{
+  width: 8px;
+}
+ .row select::-webkit-scrollbar-track{
+  background: #fff;
+}
+.row select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
